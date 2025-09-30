@@ -1,5 +1,9 @@
 # kauri-soil-shotgun
 
+This repository contains all the code used in Chapter 4 - Soil microbial functional potential in kauri forests is shaped by spatial and physicochemical gradients more than tree health decline.
+
+There is an associated [wiki](https://github.com/zoesking/kauri-soil-shotgun/wiki) page that runs through the detailed workflow for this chapter.
+
 ## Workflow outline
 
 ```mermaid
@@ -36,11 +40,8 @@ classDef onesub fill:#264653,stroke:#8ECAE6,stroke-width:2px,stroke-dasharray: 5
 classDef two fill:#2A9D8F,stroke:#8ECAE6,stroke-width:2px 
 classDef twosub fill:#2A9D8F,stroke:#8ECAE6,stroke-width:2px,stroke-dasharray: 5 5
 
-
 %% Overall flowchart
 step1:::one---QC-->step2:::two---Assembly-->step7-->step8-->step9
-
-
 
 %% Subgraphs for more detail 
 subgraph QC
